@@ -1,16 +1,30 @@
-# demo
+# GoTo-Challenge
 
-A new Flutter project.
+# Goal
 
-## Getting Started
+To design an app that a user can launch, quickly view and download a wallpaper of his/her liking. The app is not supposed to occupy you for a long period of time. All of this coupled with an elegant and smart UI and we have the app.
 
-This project is a starting point for a Flutter application.
+# Gestures Goals
 
-A few resources to get you started if this is your first Flutter project:
+You'll need to add the following gestures to the app
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+- Swipe gesture (horizontal) to browse the images.
+- Double tap gesture to download the wallpaper (anywhere in the screen).
+- Hold gesture in the left side to get a lock screen preview of the wallpaper.
+- Hold gesture in the right side to get a home screen preview of the wallpaper.
+- Shake gesture to fetch new 10 images from the Unsplash
+- You'll need to show a loading screen while the app is fetching images
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+# Gestures I did:
+
+- Swipe gesture (horizontal) to browse the images.
+- Double tap gesture to download the wallpaper (anywhere in the screen).
+- Shake gesture to fetch new 10 images from the Unsplash
+- You'll need to show a loading screen while the app is fetching images
+
+# Instructions for using this app:
+- The API usage request for my app didnt get accepted in the time period of 3 days so i used a deprecated API Link that can cause error using this app with the apk.
+- As i didnt get the full api access i coudnt fetch more than 30 images at a time i.e only 3 sets of 10 images were shown in this app.
+- Lockscreen and Homescreen gestures were not implemented by me in this app as it requires native code to be written and integrated with Flutter.
+- Im still not a professional flutter dev but an intermediate and getting a chance to learn from your team and working with you guys will be a great boost for my     programming career.
