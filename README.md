@@ -23,7 +23,7 @@ You'll need to add the following gestures to the app
 - Shake gesture to fetch new 10 images from the Unsplash
 - You'll need to show a loading screen while the app is fetching images
 
-# Instructions for using this app:
+# Instructions before using this app:
 - The API usage request for my app didnt get accepted in the time period of 3 days so i used a deprecated API Link that can cause error using this app with the apk.
 - As i didnt get the full api access i coudnt fetch more than 30 images at a time i.e only 3 sets of 10 images were shown in this app.
 - Lockscreen and Homescreen gestures were not implemented by me in this app as it requires native code to be written and integrated with Flutter.
